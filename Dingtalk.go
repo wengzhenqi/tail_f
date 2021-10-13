@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-const webhook_url = "https://oapi.dingtalk.com/robot/send?access_token=27d648673d9a92c5ca19de7d92d432011ef34dd48670062bd4051805ae5cc457"
+const webhook_url = "https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 func DingToInfo(s string) string {
 	content, data := make(map[string]string), make(map[string]interface{})
